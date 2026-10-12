@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   battery_plus: ^7.1.2
+  light: ^5.0.0
+  proximity_sensor: ^2.0.0
 
 dev_dependencies:
   flutter_test:

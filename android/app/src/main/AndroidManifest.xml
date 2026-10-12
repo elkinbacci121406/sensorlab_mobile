@@ -1,10 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sensores que usa la app. required="false": la app se instala igual en
+         equipos que no los tengan y muestra "No disponible" en lugar de fallar.
+         Batería, luz y proximidad no requieren permisos de ejecución en Android. -->
+    <uses-feature android:name="android.hardware.sensor.light" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.proximity" android:required="false" />
+
     <application
-        android:label="sensorlab_mobile"
+        android:label="SensorLab"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity" 
             android:exported="true"
             android:launchMode="singleTop"
             android:taskAffinity=""

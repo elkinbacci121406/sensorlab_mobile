@@ -144,6 +144,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.2"
+  light:
+    dependency: "direct main"
+    description:
+      name: light
+      sha256: e1f9b09222881390203a3f31ab2a19e1375e067840018bbdb49a8716e849bdcb
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.0"
   lints:
     dependency: transitive
     description:
@@ -200,6 +208,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
+  proximity_sensor:
+    dependency: "direct main"
+    description:
+      name: proximity_sensor
+      sha256: "71cdc3e9485ec1961be948161b4c6c8217f57a3676b5f7c984f8da265cf591eb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -295,4 +311,4 @@ packages:
     version: "7.0.1"
 sdks:
   dart: ">=3.12.2 <4.0.0"
-  flutter: ">=3.22.0"
+  flutter: ">=3.44.0"
